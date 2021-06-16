@@ -1,0 +1,2 @@
+"min_simulated_corr","max_simulated_corr","prob_engaged_given_none","prob_engaged_given_low_effort","prob_engaged_given_high_effort","RR_primary","RR_secondary","prob_avail","power_primary","power_secondary"
+0.655375613342672,0.673991064514491,0.15,0.21,0.16,1.23333333333333,1.3125,0.95,0.886,0.853333333333333
