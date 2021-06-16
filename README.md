@@ -6,12 +6,11 @@ urlcolor: magenta
 ---
 --->
 
-# \Huge Power Calculation for the Mobile-Assistance for Regulating Smoking Micro-Randomized Trial
+# Power Calculation for the Mobile-Assistance for Regulating Smoking Micro-Randomized Trial
 
-\Large _Jamie Yap_ 
+_Jamie Yap_ 
 
-
-\large {email: jamieyap@umich.edu; website: https://github.com/jamieyap}
+email: jamieyap@umich.edu; website: https://github.com/jamieyap
 
 
 ## About this Repository
