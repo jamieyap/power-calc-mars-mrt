@@ -39,7 +39,7 @@ _Keywords: Causal Inference, Intensive Longitudinal Data, Adaptive Interventions
 
 # Study Set-Up
 
-* **Decision Point:** Each day of the 10-day Micro-Randomized Trial (MRT) is divided into six consecutive non-overlapping blocks of time; each block is approximately 2 hours and 20 minutes long. For the purpose of calculating power, we assume that micro-randomization occurs at the beginning of each block. Further, we assume that the end of the sixth block of the current day will be followed immediately (i.e., no time gap) by the first block of the next day. Together, these assumptions imply that the decision points, which we index by $t = 1, 2, 3, ..., 60$, will be spaced approximately 2 hours and 20 minutes apart.
+* **Decision Point:** There are 6 decision points within each day of the 10-day Micro-Randomized Trial (MRT). Decision points are indexed by $t = 1, 2, 3, ..., 60$. The decision points are spread throughout the day, with approximately 2 hours between decision points.
 
 * **Occurrence of Micro-Randomizations:** Due to practical and ethical considerations, micro-randomizations will not occur if driving is detected or if the participant activates 'sleep-mode' on the smartphone. $I_t = 1$ if micro-randomization at $t$ occurs, i.e., $I_t = 1$ if the participant is not driving and does not have 'sleep-mode' activated their mobile phone at $t$; $I_t = 0$, otherwise.
 
@@ -52,9 +52,7 @@ _Keywords: Causal Inference, Intensive Longitudinal Data, Adaptive Interventions
   * $H_t = 1$ if participant is randomized to a **high effort prompt** at $t$; $H_t = 0$ otherwise (i.e., participant is randomized to either **no prompt** or a **low effort prompt**)
 
 
-In Figure 1, we illustrate the MRT data for the  $1^{st}, 2^{nd}, 3^{rd}, ..., 60^{th}$ decision points.
-
-\vspace{0.25in}
+\vspace{0.10in}
 
 
 ![Illustration of the MRT Data.](schematic.png){#id .class width=105% height=105%}
